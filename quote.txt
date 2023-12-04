@@ -1,0 +1,71 @@
+============================================================================
+Back End                                            : TOTAL : 11.5h to 13.5h
+============================================================================
+
+Server :                                            : Total : 3h
+    - Operating system setup on the server          : 1.5h
+    - Setup of core programs (Docker, Nginx, Node)  : 1.5h
+
+    - Payload setup                                 : Total : 9h
+      - Creation and setup of data structure        : 6h
+      - Testing - security and connections          : 1h
+      - Vimeo integration                           : 2h (if needed)
+
+    - Payload deployment                            : Total : 1h
+      - Deployment with Docker and Nginx            : 1h
+      - SSL & Domain name handling                  : 0.5h
+
+============================================================================
+Front End                                           : TOTAL : 26h   to   32h
+============================================================================
+
+    Global :                                        : Total : 7.5h
+        - Project setup with React                  : 2h
+        - Page layout setup (Core layout + CSS)     : 4h
+        - Deployment to server                      : 1h
+        - SSL & Domain name handling                : 0.5h
+
+    Daydream Page :                                 : Total : 2.5h
+        - Link to the back end and data parsing     : 1h
+        - Page layout setup                         : 1h
+        - Testing and bugfixes*                     : 0.5h
+
+    Info Page :                                     : Total : 3h
+        - Link to the back end and data parsing     : 1h
+        - Page layout setup                         : 1h
+        - Testing and bugfixes*                     : 0.5h
+        - Additional animations                     : 0.5h
+
+    Editors index Page :                            : Total : 3 to 5 hours
+        - Link to the back end and data parsing     : 1h
+        - Page layout setup                         : 1h
+        - Testing and bugfixes*                     : 0.5h
+        - Additional animations                     : 0.5h to 2h depending on complexity
+
+    Editors Page :                                  : Total : 5 to 7 hours
+        - Link to the back end and data parsing     : 1h
+        - Page layout setup + (/EditorName)         : 2h
+        - SEO setup (link previews, metadata)       : 1h
+        - Testing and bugfixes*                     : 1h
+        - Additional animations                     : 0.5h to 2h depending on complexity
+
+    Project Page :                                  : Total : 5 to 7 hours
+        - Link to the back end and data parsing     : 1h
+        - Page layout setup + routes (/projectName) : 2h
+        - SEO setup (link previews, metadata)       : 1h
+        - Testing and bugfixes*                     : 1h
+        - Additional animations                     : 0.5h to 2h depending on complexity
+
+============================================================================
+TOTAL                                               : TOTAL : 37.5h to 45.5h
+============================================================================
+
+*Testing and bugfixes on
+    - Safari  iOS
+    - Safari  MacOS
+    - Chrome  Android
+    - Chrome  Desktop
+    - Firefox Android
+    - Firefox Desktop
+
+Note : Chrome and Firefox on iOS are just skins of Safari
